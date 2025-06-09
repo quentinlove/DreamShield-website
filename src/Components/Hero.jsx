@@ -44,7 +44,7 @@ export default function Hero() {
         </div>
         <div className="md:w-1/2 mt-12 md:mt-0 flex justify-center">
           <motion.img
-            src="/images/hero‐earcup‐mockup.webp"
+            src="/images/hero-earcup-mockup.png"
             alt="DreamShield Ear‐Cuff Mockup"
             className="w-full max-w-md"
             initial={{ scale: 0.8, opacity: 0 }}

@@ -1,7 +1,7 @@
 // pages/product.jsx
 import Head from "next/head";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 import Link from "next/link";
 import { Tab } from "@headlessui/react";
 
@@ -18,7 +18,7 @@ export default function Product() {
           <div className="container mx-auto px-4 lg:px-8 flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-8 md:mb-0">
               <img
-                src="/images/product-hero.webp"
+                src="/images/hero-earcup-mockup.png"
                 alt="DreamShield Ear-Cuff"
                 className="w-full rounded-lg shadow"
               />
@@ -55,7 +55,7 @@ export default function Product() {
               <div className="space-x-4">
                 <Link href="/shop">
                   <a className="px-6 py-3 bg-accent hover:bg-red-600 rounded-md font-semibold text-white">
-                    Buy Now – \$120
+                    Buy Now – $120
                   </a>
                 </Link>
                 <Link href="/how-it-works">
@@ -129,17 +129,17 @@ export default function Product() {
                     {
                       name: "MEMS Mic (SPH0645)",
                       desc: "High-fidelity I²S microphone for real-time noise capture.",
-                      image: "/images/comp-mic.webp",
+                      image: "/images/comp-mic.jpg",
                     },
                     {
                       name: "ANC SoC (nRF52840)",
                       desc: "ARM Cortex-M4 with built-in DSP and Bluetooth LE.",
-                      image: "/images/comp-anc.webp",
+                      image: "/images/comp-anc.jpg",
                     },
                     {
                       name: "Haptic Driver (DRV2605)",
                       desc: "Precision LRA driver for gentle vibration alerts.",
-                      image: "/images/comp-haptic.webp",
+                      image: "/images/comp-haptic.png",
                     },
                     {
                       name: "Battery (LiPo 350 mAh)",
@@ -201,7 +201,7 @@ export default function Product() {
                 <ul className="list-disc list-inside space-y-2 text-gray-700">
                   <li>If DreamShield doesn’t fit comfortably for side sleep, return it within 30 days for a full refund or free cushion swap.</li>
                   <li>Battery failure within 1 year? We’ll replace your earcup free of charge.</li>
-                  <li>Extended Warranty available for \$19.99/year (covers accidental damage and one extra cushion kit).</li>
+                  <li>Extended Warranty available for $19.99/year (covers accidental damage and one extra cushion kit).</li>
                 </ul>
               </Tab.Panel>
             </Tab.Panels>
@@ -216,7 +216,7 @@ export default function Product() {
             </h2>
             <Link href="/shop">
               <a className="px-8 py-4 bg-accent hover:bg-red-600 rounded-lg font-semibold">
-                Buy DreamShield for \$120
+                Buy DreamShield for $120
               </a>
             </Link>
           </div>

@@ -1,0 +1,57 @@
+@import "tailwindcss";
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+@import "swiper/css";
+
+/* 2) Optional: Navigation & Pagination styles */
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+/* You can add your own global overrides below */
+.swiper-button-next,
+.swiper-button-prev {
+  /* Center vertically, enlarge arrow */
+  color: #4b5563;          /* Tailwind gray-700 */
+  width: 2rem;             /* 32px */
+  height: 2rem;            /* 32px */
+}
+.custom-bg{
+  background-color: #632a1e;
+}
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  color: #1f2937;          /* Tailwind gray-800 */
+}
+:root {
+  --background: #ffffff;
+  --foreground: #dcbebe;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+@keyframes gradientShift {
+  0%   { background-position: 0%   center; }
+  100% { background-position: 200% center; }
+}
+.animate-gradient {
+  animation: gradientShift 8s ease infinite;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #796666;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}

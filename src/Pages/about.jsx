@@ -1,7 +1,7 @@
 // pages/about.jsx
 import Head from "next/head";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
 export default function About() {
   const partners = [
@@ -96,7 +96,7 @@ export default function About() {
               highest standards in comfort, privacy, and clinical efficacy.
             </p>
             <img
-              src="/images/team-photo.webp"
+              src="/images/team_photo.webp"
               alt="DreamShield Team"
               className="mx-auto rounded-lg shadow-lg"
             />

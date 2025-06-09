@@ -1,9 +1,9 @@
 // pages/how-it-works.jsx
 import Head from "next/head";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 import { motion } from "framer-motion";
-import Viewer from "../components/3DViewer";
+import Viewer from "../Components/3DViewer";
 
 export default function HowItWorks() {
   return (
@@ -40,7 +40,7 @@ export default function HowItWorks() {
                 transition={{ delay: 0.2 }}
               >
                 <img
-                  src="/images/step1-mic.webp"
+                  src="/images/mic.webp"
                   alt="Mic captures ambient noise"
                   className="rounded-lg shadow-lg"
                 />
@@ -70,7 +70,7 @@ export default function HowItWorks() {
                 transition={{ delay: 0.2 }}
               >
                 <img
-                  src="/images/step2-ml.webp"
+                  src="/images/classify.webp"
                   alt="On-device ML classifies noise"
                   className="rounded-lg shadow-lg"
                 />
@@ -101,7 +101,7 @@ export default function HowItWorks() {
                 transition={{ delay: 0.2 }}
               >
                 <img
-                  src="/images/step3-anc.webp"
+                  src="/images/anc.webp"
                   alt="ANC cancels noise"
                   className="rounded-lg shadow-lg"
                 />
@@ -131,7 +131,7 @@ export default function HowItWorks() {
                 transition={{ delay: 0.2 }}
               >
                 <img
-                  src="/images/step4-haptic.webp"
+                  src="/images/haptic.webp"
                   alt="Haptic alerts"
                   className="rounded-lg shadow-lg"
                 />
@@ -162,7 +162,7 @@ export default function HowItWorks() {
                 transition={{ delay: 0.2 }}
               >
                 <img
-                  src="/images/step5-app.webp"
+                  src="/images/app.webp"
                   alt="Sleep coaching app"
                   className="rounded-lg shadow-lg"
                 />

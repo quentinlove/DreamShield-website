@@ -1,7 +1,7 @@
 // pages/shop.jsx
 import Head from "next/head";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 import { useEffect } from "react";
 
 export default function Shop() {
@@ -48,7 +48,7 @@ export default function Shop() {
             Pre‐Order DreamShield
           </h1>
           <p className="text-gray-700 mb-8">
-            Reserve your DreamShield now for \$120. Free shipping for first 100 orders.
+            Reserve your DreamShield now for $120. Free shipping for first 100 orders.
           </p>
           <div id="buy-button" className="inline-block"></div>
         </section>
