@@ -3,7 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Environment, useGLTF } from "@react-three/drei";
 
 function EarcupModel() {
-  const { scene } = useGLTF("/images/3d-models/earcup3.glb");
+  const { scene } = useGLTF("/images/3d-models/Dreamshield_prototype.glb");
   return <primitive object={scene} />;
 }
 

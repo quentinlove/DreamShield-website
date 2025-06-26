@@ -206,6 +206,27 @@ export default function Home() {
               title="In-App Community & Support"
               description="Join peer tips, expert Q&A & referral rewards. You’re never alone in your sleep journey."
             />
+            <FeatureCard
+              icon="/images/gentle.png"
+              title="Gentle Smart-Alarm & Wake"
+              description="Haptic Sunrise: a progressively intensifying series of gentle pulses to wake you without a jarring buzzer."
+            />
+            <FeatureCard
+              icon="/images/temperature.png"
+              title="Thermal Comfort Control"
+              description="Active Temperature Regulation – built-in phase-change gel & micro-vent channels keep your ears at the perfect temperature all night."
+            />
+            <FeatureCard
+              icon="/images/smartHome.png"
+              title="Smart-Home & Ecosystem Integration"
+              description="Voice Assistant Ready – works with Alexa/Google Home to start your bedtime routine hands-free."
+            />
+           <br></br>
+            <FeatureCard
+              icon="/images/soundscape.png"
+              title="Customizable Soundscape Library"
+              description="Nature & Ambient Presets – rain, ocean waves, forest walk, pink noise—all instantly accessible via the app or dial."
+            />
     </div>
   </div>
 </section>
@@ -236,14 +257,7 @@ export default function Home() {
           Designed to perfection
         </h2>
         <p className="text-gray-200 leading-relaxed">
-          The earbuds take users on a seamless journey to quietude by creating a smooth,
-          quick transition to active noise cancelling mode from the moment they’re removed
-          from the case. Super small size makes these the most comfortable earbuds for
-          sleeping. QuietOn 4 comes with four pairs of eartips of assorted sizes so one
-          can choose the best fit, as well as a handy charging case that provides 28
-          hours of ANC on a single charge. QuietOn 4 also boasts zero electromagnetic
-          field (EMF) radiation due to not featuring any transmitters, receivers or
-          connectivity options.
+         DreamShield wraps you in a personalized sleep sanctuary, seamlessly blending active noise cancellation, gentle haptic cues, and on-ear health sensing into one elegant ear-cuff. From the moment you slip on its 3D-knit breathable shell and fine-tune the fit with the precision dial, DreamShield adapts to your unique anatomy—locking out distracting sounds while monitoring your heart rate and sleep stages in real time. Its micro-ventilated memory-gel liner keeps you cool and comfortable all night, and the whisper-thin Class-D amp delivers crystal-clear guided meditations or white-noise tracks straight to your ears. With up to 8 hours of continuous ANC + audio playback on a single charge, plus seamless Bluetooth® connectivity to our companion app, DreamShield empowers you to drift off, stay asleep, and wake up refreshed—every night.
         </p>
       </motion.div>
 
@@ -403,21 +417,13 @@ export default function Home() {
           Experience Deep Relaxation
         </h2>
         <p className="text-white">
-          Tired of tossing and turning? Our new SomnoSleep Earbuds combine
-          gentle haptic feedback with personalized white noise to lull you into
-          the perfect slumber. Designed specifically for side sleepers, they mold
-          snugly around your ear without any pressure points.
+         Tired of tossing and turning? DreamShield’s ergonomic ear-cuff fuses precision-dial fit with gentle haptic pulses and custom soundscapes to cradle you into deep rest. Its 3D-knitted, breathable shell and memory-gel liner mold perfectly around side-sleepers’ ears—no pressure points, just cool, cloud-like comfort.
         </p>
         <p className="text-white">
-          With adaptive noise cancellation, SomnoSleep learns your sleep
-          environment over time—automatically adjusting to block out snoring,
-          traffic sounds, or a partner’s late‐night TV. Wake up feeling rested
-          and ready for the day.
+          With adaptive ANC that learns your room’s noise patterns, DreamShield automatically blocks snoring, traffic, or a partner’s late-night TV, while on-ear bio-sensors monitor your heart rate and sleep stages to subtly adjust white noise and haptic guidance. 
         </p>
         <p className="text-white">
-          Slip on the earbuds, press play on your favorite sleep track or
-          guided meditation, and drift away in comfort. No bulky headbands,
-          just pure, uninterrupted rest.
+          Slip on your DreamShield, fine-tune the tension dial, fire up your favorite guided meditation or ambient track via seamless Bluetooth® connection, and drift away into uninterrupted slumber—waking up truly refreshed.
         </p>
       </div>
 
